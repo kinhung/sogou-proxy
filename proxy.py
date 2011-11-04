@@ -121,13 +121,13 @@ print(u'Please select your network environment:\n\
       4. DXT    \n\
       Default is CERNET: \n')
 i = raw_input()
-if i == 1:
+if i == '1':
     proxy_host = 'h' + str(random.randint(0,10)) + '.edu.bj.ie.sogou.com'
-elif i == 2:
+elif i == '2':
     proxy_host = 'h' + str(random.randint(0,3)) + '.ctc.bj.ie.sogou.com'
-elif i == 3:
+elif i == '3':
     proxy_host = 'h' + str(random.randint(0,3)) + '.cnc.bj.ie.sogou.com'
-elif i == 4:
+elif i == '4':
     proxy_host = 'h' + str(random.randint(0,10)) + '.dxt.bj.ie.sogou.com'
 elif len(i) == 0:
     proxy_host = 'h' + str(random.randint(0,10)) + '.edu.bj.ie.sogou.com'
